@@ -1,0 +1,66 @@
+    div {
+        margin: 20px auto;
+        box-sizing: border-box;
+        box-shadow: 10px 10px 10px;
+        
+    }
+    body {
+
+    margin: 10;
+    padding: 20;
+    font-family: Arial, sans-serif;
+    background-image: url(../IMAGES/pexels-kristina-paukshtite-1591252.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    }
+
+    header {
+        text-align: center;
+        font-weight: bold;
+        background-color: rgb(213, 213, 32);
+        padding: 10px;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        box-sizing: border-box;
+        box-shadow: 10px 10px ;
+    }
+
+    #menuIcon {
+    float: left;
+    margin-right: 0px;
+    
+    }
+
+    #optionsContainer {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
+      margin: 10px;
+    }
+
+    .option {
+      background-color: rgb(242, 242, 181);
+      padding: 50px;
+      margin-bottom: 20px;
+      display: flex;
+      align-items: center;
+    }
+
+    .option img {
+      margin-right: 0px;
+          }
+
+    #sair {
+      text-align: center;
+      font-weight: 700;
+      background-color: rgb(197, 59, 59);
+      padding: 10px;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      box-sizing: border-box;
+      box-shadow: 10px 10px 10px 10px ;
+    }
